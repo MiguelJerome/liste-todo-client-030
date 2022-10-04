@@ -1,0 +1,49 @@
+html {
+    box-sizing: border-box;
+}
+
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+
+header {
+    background-color: #b0d4ff;
+}
+
+h1 {
+    margin: 0;
+    padding: 2rem;
+    text-align: center;
+}
+
+main {
+    max-width: 25rem;
+    padding: 1rem;
+    margin: 0 auto;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    display: flex;
+    align-items: baseline;
+    gap: 1rem;
+    margin-bottom: 1rem;
+}
+
+input[type=checkbox]:checked + .texte {
+    text-decoration: line-through;
+}
+
+form {
+    display: flex;
+}
+
+#textbox-todo {
+    width: 100%;
+    padding: .5rem;
+}
